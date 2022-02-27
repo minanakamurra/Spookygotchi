@@ -1,0 +1,62 @@
+body{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    text-align: center;
+    background-image: url("../images/bg.png");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    font-family: cursive, monospace, serif;
+}
+
+main{
+    width:30vw;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header > img {
+    height:12vh;
+}
+
+div:last-of-type{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+div:last-of-type > a > img{
+    transition: transform .3s;
+}
+
+div:last-of-type > a > img:hover{
+    transform: scale(1.2);
+}
+
+div:last-of-type > a > img, div:last-of-type > img{
+    height:10vh;
+}
+
+.actiesSpook1, .actiesSpook2, .actiesSpook3{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.spook1Actie1, .spook1Actie2, .spook1Actie3, .spook2Actie1, .spook2Actie2, .spook2Actie3,
+.spook3Actie1, .spook3Actie2, .spook3Actie3{
+    transition: transform .3s;
+}
+
+.spook1Actie1:hover, .spook1Actie2:hover, .spook1Actie3:hover,.spook2Actie1:hover, .spook2Actie2:hover, .spook2Actie3:hover,
+.spook3Actie1:hover, .spook3Actie2:hover, .spook3Actie3:hover{
+    transform: scale(1.25);
+}
+
+.actiesSpook1 > img , .actiesSpook2 > img, .actiesSpook3 > img {
+    height:10vh;
+}
+
