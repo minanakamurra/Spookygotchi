@@ -1,3 +1,6 @@
+/*Mina Nakamura, P15 GIT Zwart, Inleiding Prgrammeren, 19 maart 2021, 500824922*/
+
+/*algemene styling*/
 body{
     margin-top: 10vh;
     margin-bottom: 10vh;
@@ -8,8 +11,10 @@ body{
     font-family: cursive, monospace, serif;
 }
 
+/*main styling en flexing items*/
 main{
     width:30vw;
+    margin-top: 10vh;;
     margin-left: auto;
     margin-right: auto;
     display:flex;
@@ -17,10 +22,23 @@ main{
     flex-direction: column;
 }
 
+/*logo styling*/
 header > img {
     height:12vh;
 }
 
+/*muziek knop styling*/
+.muziekKnop{
+    height:5vh;
+    margin-right: 5vh;
+    transition: transform .3s;
+}
+
+.muziekKnop:hover{
+    transform: scale(1.3);
+}
+
+/*styling voor de andere spookjes*/
 div:last-of-type{
     display:flex;
     justify-content: space-evenly;
@@ -28,6 +46,7 @@ div:last-of-type{
     margin-top: 2vh;
 }
 
+/*styling voor de andere spookjes - transfomr animatie*/
 div:last-of-type > a > img{
     transition: transform .3s;
 }
@@ -40,12 +59,14 @@ div:last-of-type > a > img, div:last-of-type > img{
     height:10vh;
 }
 
+/*styling voor uitvierbare acties*/
 .actiesSpook1, .actiesSpook2, .actiesSpook3{
     display:flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
+/*styling voor uitvierbare acties - transform animaties*/
 .spook1Actie1, .spook1Actie2, .spook1Actie3, .spook2Actie1, .spook2Actie2, .spook2Actie3,
 .spook3Actie1, .spook3Actie2, .spook3Actie3{
     transition: transform .3s;
@@ -56,6 +77,7 @@ div:last-of-type > a > img, div:last-of-type > img{
     transform: scale(1.25);
 }
 
+/*styling voor uitvierbare acties -  images*/
 .actiesSpook1 > img , .actiesSpook2 > img, .actiesSpook3 > img {
     height:10vh;
 }

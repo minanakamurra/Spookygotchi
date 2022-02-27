@@ -1,3 +1,5 @@
+<!--Mina Nakamura, P15 GIT Zwart, Inleiding Prgrammeren, 19 maart 2021, 500824922-->
+
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -11,24 +13,28 @@
 
 <body>
     <header>
+        <!--logo en muziek knop-->
+        <audio id="achtergrondMuziek" src="./bgm/muziek.mp3" loop="loop"></audio>
+        <img class="muziekKnop" src="./images/mute.gif" alt="audio is mute icoon">
         <img src="./images/spookygotchi2.gif" alt="spookygotchi logo">
     </header>
 
     <main>
+        <!--spook image en tekst-->
         <div>
             <p class="spookje2Tekst">Interacteer met één van de spookjes!</p>
             <img class="spookje2" src="./images/ghost-2-normal.gif" alt="paars spookje">
             <div class="hartjes"></div>
         </div>
 
+        <!--uitvoerbare acties-->
         <div class="actiesSpook2">
             <img class="spook2Actie1" src="./images/action-1-2.png" alt="actie snoep geven">
             <img class="spook2Actie2" src="./images/action-2-2.png" alt="actie heksenhoed geven">
             <img class="spook2Actie3" src="./images/action-3-2.png" alt="actie spin geven">
         </div>
 
-        <p class="actieTekst"></p>
-
+        <!--de ander spookjes-->
         <div>
             <a href="./index.html"><img src="./images/ghost-1-normal.gif" alt="bruin spookje"></a>
             <img src="./images/ghost-2-normal.gif" alt="paars spookje">
@@ -36,6 +42,7 @@
         </div>
     </main>
 
+    <!--link met javascript-->
     <script src="./js/spookygotchi.js"></script>
 </body>
 

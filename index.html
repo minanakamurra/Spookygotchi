@@ -1,3 +1,5 @@
+<!--Mina Nakamura, P15 GIT Zwart, Inleiding Prgrammeren, 19 maart 2021, 500824922-->
+
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -10,37 +12,36 @@
 </head>
 
 <body>
-    <audio id='achtergrondMuziek' src ='./bgm/muziek.mp3' loop='loop' ></audio>
-    <button class='muziekKnop'>hallo</button>
-
+    <!--logo en muziek knop-->
     <header>
+        <audio id="achtergrondMuziek" src="./bgm/muziek.mp3" loop="loop"></audio>
+        <img class="muziekKnop" src="./images/mute.gif" alt="audio is mute icoon">
         <img src="./images/spookygotchi1.gif" alt="spookygotchi logo">
     </header>
 
     <main>
+        <!--spook image en tekst-->
         <div>
             <p class="spookje1Tekst">Interacteer met één van de spookjes!</p>
             <img class="spookje1" src="./images/ghost-1-normal.gif" alt="bruin spookje">
-            <div class="hartjes"></div>
         </div>
 
+        <!--uitvoerbare acties-->
         <div class="actiesSpook1">
             <img class="spook1Actie1" src="./images/action-1-1.png" alt="actie snoep geven">
             <img class="spook1Actie2" src="./images/action-2-1.png" alt="actie heksenhoed geven">
             <img class="spook1Actie3" src="./images/action-3-1.png" alt="actie spin geven">
         </div>
 
-        <p class="actieTekst"></p>
-
+        <!--de ander spookjes-->
         <div class="andereSpookjes">
             <img src="./images/ghost-1-normal.gif" alt="bruin spookje">
             <a href="./ghost2.html"><img src="./images/ghost-2-normal.gif" alt="paars spookje"></a>
             <a href="./ghost3.html"><img src="./images/ghost-3-normal.gif" alt="blauw spookje"></a>
         </div>
-
-        
     </main>
 
+    <!--link met javascript-->
     <script src="./js/spookygotchi.js"></script>
 </body>
 
